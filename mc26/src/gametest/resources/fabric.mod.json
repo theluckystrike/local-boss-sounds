@@ -1,0 +1,9 @@
+{
+	"schemaVersion": 1,
+	"id": "local-boss-sounds-test",
+	"version": "1.0.0",
+	"name": "Local Boss Sounds game test",
+	"environment": "*",
+	"entrypoints": { "fabric-client-gametest": ["com.zovo.bosssounds.test.BossSoundsClientGameTest"] },
+	"depends": { "local-boss-sounds": "*" }
+}

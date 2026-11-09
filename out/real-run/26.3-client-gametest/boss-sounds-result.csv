@@ -1,0 +1,22 @@
+mode,case,distance_sent,heard,sound_x,sound_z,offset_from_event,offset_from_player
+everywhere,wither 10 blocks,10,true,2.49,0.50,8.06,2.43
+everywhere,wither 120 blocks,120,true,2.50,0.50,118.01,2.53
+everywhere,wither in nether,0,true,0.50,0.50,0.88,0.38
+everywhere,dragon 20 blocks,20,true,2.50,0.50,18.03,2.50
+everywhere,dragon 300 blocks,300,true,2.50,0.50,298.00,2.53
+everywhere,portal 6 blocks,6,true,2.47,0.50,4.10,2.33
+everywhere,portal 60 blocks,60,true,2.50,0.50,58.01,2.53
+nearby,wither 10 blocks,10,true,10.50,0.50,0.00,10.01
+nearby,wither 120 blocks,120,false,,,,
+nearby,wither in nether,0,false,,,,
+nearby,dragon 20 blocks,20,true,20.50,0.50,0.00,20.01
+nearby,dragon 300 blocks,300,false,,,,
+nearby,portal 6 blocks,6,true,6.50,0.50,0.00,6.02
+nearby,portal 60 blocks,60,false,,,,
+off,wither 10 blocks,10,false,,,,
+off,wither 120 blocks,120,false,,,,
+off,wither in nether,0,false,,,,
+off,dragon 20 blocks,20,false,,,,
+off,dragon 300 blocks,300,false,,,,
+off,portal 6 blocks,6,false,,,,
+off,portal 60 blocks,60,false,,,,

@@ -1,0 +1,9 @@
+pluginManagement {
+	repositories {
+		maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'local-boss-sounds'
+include 'common', 'mc26'

@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "local-boss-sounds",
+	"version": "${version}",
+	"name": "Local Boss Sounds",
+	"description": "Wither spawn, dragon death and end portal sounds are heard only near the event, from where it happened. Each sound can be set to everywhere, nearby or off. Client side only.",
+	"authors": ["theluckystrike"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/local-boss-sounds",
+		"sources": "https://github.com/theluckystrike/local-boss-sounds",
+		"issues": "https://github.com/theluckystrike/local-boss-sounds/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/local-boss-sounds/icon.png",
+	"environment": "client",
+	"entrypoints": { "client": ["com.zovo.bosssounds.LocalBossSoundsClient"] },
+	"mixins": ["local-boss-sounds.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
